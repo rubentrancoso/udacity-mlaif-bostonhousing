@@ -39,6 +39,12 @@ function display {
     echo -e "\nJUPYTER\n"
     echo -e "- run jupyter notebook"
     echo -e "   $ jupyter notebook\n"
+    echo -e "Using this environment"
+    echo -e ""
+    echo -e "   $ conda create --name bostonhousing python=3.6 -y"
+    echo -e "   $ conda install scikit-learn=0.18.1 scipy=0.18.1 pandas numpy matplotlib seaborn -y"
+    echo -e "   $ source activate bostonhousing"
+    echo -e ""
 }
 
 loop $1
